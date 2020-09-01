@@ -15,7 +15,7 @@
 #### - Plot the results using the DataFrame plot method.
 #### - Use Pandas to print the summary statistics for the precipitation data.
 
-![precip_image](Images/precip.PNG)
+![precip_image](Images/precip.png)
 
 ### Station Analysis
 #### - Design a query to calculate the total number of stations.
@@ -26,7 +26,7 @@
 #### - Filter by the station with the highest number of observations.
 #### - Plot the results as a histogram with bins=12.
 
-![stations_image](Images/temphist.PNG)
+![stations_image](Images/temphist.png)
 
 ### Temperature Analysis II
 #### - The starter notebook contains a function called calc_temps that will accept a start date and end date in the format %Y-%m-%d. The function will return the minimum, average, and maximum temperatures for that range of dates.
@@ -35,7 +35,7 @@
 ##### * Use the average temperature as the bar height.
 ##### * Use the peak-to-peak (TMAX-TMIN) value as the y error bar (YERR).
 
-![temp_image](Images/tempbar.PNG)
+![temp_image](Images/tempbar.png)
 
 ### Daily Rainfall Average
 #### - Calculate the rainfall per weather station using the previous year's matching dates.
@@ -45,4 +45,4 @@
 #### - Load the list of daily normals into a Pandas DataFrame and set the index equal to the date.
 #### - Use Pandas to plot an area plot (stacked=False) for the daily normals.
 
-![rainfall_image](Images/dailynormarea.PNG)
+![rainfall_image](Images/dailynormarea.png)
